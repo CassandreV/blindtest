@@ -1,0 +1,67 @@
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4.5%;
+      height: 8.5%;
+      margin-left: 45%;
+      margin-top: 25%;
+  }
+
+  .play-pause-btn {
+    width: 20vw;
+    height: 20vh;
+    top: 0;
+    left: 0;
+  }
+
+  .play{
+    width: 15em;
+    height: auto;
+    margin-left: 200%;
+    margin-top: 50%;
+  }
+
+  .pause{
+    width: 15em;
+    height: auto;
+    margin-left: 200%;
+    margin-top: 60%;
+  }
+
+  .boutton{
+    display: flex;
+    margin-left: 160%;
+    margin-top: 25%;
+    
+  }
+
+  .logo{
+    width: 7vh;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  .logoBrand{
+    position: absolute;
+    width: 18vh;
+    height: auto;
+    margin-left: -1.5%;
+    margin-top: -1%;
+  }
+
+  .answers{
+    display: none;
+  }
