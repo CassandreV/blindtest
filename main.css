@@ -27,24 +27,29 @@
   }
 
   .play{
-    width: 15em;
+    width: 20em;
     height: auto;
-    margin-left: 200%;
-    margin-top: 50%;
+    margin-left: 185%;
+    margin-top: 18%;
   }
 
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
   .pause{
-    width: 15em;
+    width: 20em;
     height: auto;
-    margin-left: 200%;
-    margin-top: 60%;
+    margin-left: 185%;
+    margin-top: 18%;
+    animation:spin 4s linear infinite;
+
   }
 
   .boutton{
     display: flex;
-    margin-left: 160%;
-    margin-top: 25%;
-    
+    margin-left: 245%;
+    margin-top: 15%;
+    justify-content: space-around;    
   }
 
   .logo{
@@ -62,6 +67,36 @@
     margin-top: -1%;
   }
 
+.stars{
+  position: absolute;
+  display: flex;
+  height: 4em;
+  bottom: 4em;
+  left: 2em;
+}
+
+ .star{
+    /* display: flex;
+    position: absolute; */
+    width: 20vh;
+    height: 10vh;
+    margin-right: -6em;
+  }
+
   .answers{
     display: none;
   }
+  
+  #display_here{
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1000; /* Specify a stack order in case you're using a different order for other 
+  }
+
