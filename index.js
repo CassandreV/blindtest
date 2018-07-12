@@ -41,7 +41,7 @@ var artist8 = {
 
 var artist9 = {
   artist: "Stevie Wonder",
-  id: "spotify:track:6HH86EFT19q8j9ds0qnF4V",
+  id: "spotify:track:1SaWFbIdRPmS58NtgTVaj5",
 }
 
 var artist10 = {
@@ -70,9 +70,9 @@ var artist14 = {
 }
 
 var artist15 = {
-  artist: "The Temptations",
-  id: "spotify:track:6jWkZvd1URGktyTTwcpPpB",
-}
+  artist: "Ramin Djawadi",
+  id: "spotify:track:4cKmnSLAhwxaWKXQhfz5Ju",
+} 
 
 var artist16 = {
   artist: "Kanye West",
@@ -90,8 +90,8 @@ var artist18 = {
 }
 
 var artist19 = {
-  artist: "Michael Jackson",
-  id: "spotify:track:5lWFrW5T3JtxVCLDb7etPu",
+  artist: "Blur",
+  id: "spotify:track:5CeL9C3bsoe4yzYS1Qz8cw",
 }
 
 var artist20 = {
@@ -108,7 +108,7 @@ artistsArray.push(artist1, artist2, artist3, artist4, artist5, artist6, artist7,
   
 // Spotify token  
   var spotifyApi = new SpotifyWebApi();
-  spotifyApi.setAccessToken('BQByHJ-6uC_rXTj3-VXEle4TADRe64_mozOS0w2NdlGkmobLJBILhmqhSwsXk0qGo0InvXXGwLYSg0a8BkUsI3nKMw8tM0lDVxxiKsHTwS4LeEbk6ukapDQX-3NA9LXu72nEUQwOJBs5moebDS9hEyq9zmRcQw8OZeVF_gbtHDoaqeFDVixczjz-iTy5NXPSldzcD0vOfYKLTEljgr4S23FTew4bAX0-XfHOlE_9WJn1a6ROPUiv3WuUAGdKptIhx7Sc2VMw8EIH0QQb7cDlaw'); 
+  spotifyApi.setAccessToken('BQAX-ZdOA5xkDOzxrdBS1Xwlc4OfCxvY63313zIk7kmBS9A6J7862RujQV9RmjcgMvU1tje_pzi24Dzzfien6TEhsL4L4g2KxjyywUXRe60ow_CuxBvhLWxEh9lPLkDeg3dYR4DrozF-JfuHBi4oLcU1nBKYJ2S3iQ1_tnqtsfOHhAcKDsJewxk3RIB_rSzbuwBNPZ691ebK2JxClvsDFvrOCtTEg-uyN6ksN23pTV6SNxMu0ULOx7UwOOmIBXFKUWxf2GTXaeRRS95vTJWcGg'); 
   
 // $(".boutton").removeClass("answers");
 $(function(){
